@@ -23,4 +23,8 @@ export class TodoService {
   	this.nextId++;
   }
 
+  puclic getTodos(): Todo[] {
+  	return this.todos;
+  }
+
 }
